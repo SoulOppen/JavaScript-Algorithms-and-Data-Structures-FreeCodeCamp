@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src=""  alt="logo">
+    </header>
+    <main>
+        <section id="dex">
+            <label for="pokemon"> Pokemon: 
+                <input type="text"  id="search-input" required">
+            </label>
+            <button type="button" id="search-button">Search</button>
+            <article>
+                <header>
+                    <h2 id="pokemon-id"></h2>
+                    <h2 id="pokemon-name"></h2>
+                    <div id="poke-img">
+                    </div>
+                </header>
+                <main>
+                    <div id="types"></div>
+                    <div id="description-stats">
+                        <p id="weight"></p>
+                        <p id="height"></p>
+                        <p id="hp"></p>
+                    </div>
+                    <div id="battle">
+                        <ul>
+                            <li>Atack  <p id="attack"></p> </li>
+                            <li>Defense <p id="defense"></p> </li>
+                            <li>Special-Atack: <p id="special-attack"></p> </li>
+                            <li>Special-Defense <p id="special-defense"></p> </li>
+                            <li>Speed <p id="speed"></p> </li>
+                        </ul>                        
+                    </div>
+                </main>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Page by A.O.L
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
